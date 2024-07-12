@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your ticket</title>
+</head>
+<body>
+    <h1>Your booking Id:<%=bkseat._id%></h1>
+    <%=bkseat.showtime_id.movie_id.title%>
+    <%=bkseat.number_of_tickets%>
+    <%=bkseat.total_amount%>
+    <%=bkseat.start_time%>
+    <%=bkseat.end_time%>
+    <%=bkcinema.screen_id.screen_number%>
+    <%=bkcinema.screen_id.cinema_id.name%>
+    <%=bkcinema.screen_id.cinema_id.location%>
+</body>
+</html>
